@@ -132,7 +132,7 @@ void initCDS(){
     }
 }
 bool poss(){
-    cout<<"failing node  "<<failed<<endl;
+    cout<<"removing node  "<<failed<<endl;
     //creating temporary variables
     tempAdjList.clear();
     assert(tempAdjList.size()==0);
