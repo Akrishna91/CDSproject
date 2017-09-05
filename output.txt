@@ -1,0 +1,2 @@
+number of nodes in the graph  6
+size of dominant nodes in the graph  1
