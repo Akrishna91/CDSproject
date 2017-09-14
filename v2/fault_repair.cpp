@@ -32,9 +32,23 @@ typedef vector<ii>vii;
 typedef pair<int,string>is;
 //--------------------------------global variables-------------------------------//
 
+enum NodeColor {
+    WHITE, BLACK, GRAY
+};
 class FaultRepair {
 private:
-    Graph* graph;
+    const Graph& graph;
+    
+public:
+    void initCDS();
     
 
 };
+
+void initCDS() {
+    Graph current_graph = graph;
+    for(i : current_graph) {
+        i.node_color = NodeColor::WHITE;
+    }
+    
+}
